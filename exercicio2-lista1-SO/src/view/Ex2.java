@@ -10,9 +10,9 @@ public class Ex2 {
 		String texto1 = JOptionPane.showInputDialog("Digite o primeiro texto");
 		String texto2 = JOptionPane.showInputDialog("Digite o segundo texto");
 		String texto3 = JOptionPane.showInputDialog("Digite o terceiro texto");
-		System.out.println("O texto 1 tem " + ex2.operacoes(texto1));
-		System.out.println("O texto 2 tem " + ex2.operacoes(texto2));
-		System.out.println("O texto 3 tem " + ex2.operacoes(texto3));
+		System.out.println("O texto 1 tem " + ex2.operacoes(texto1) + " partes.");
+		System.out.println("O texto 2 tem " + ex2.operacoes(texto2) + " partes.");
+		System.out.println("O texto 3 tem " + ex2.operacoes(texto3) + " partes.");
 	}
 
 }
