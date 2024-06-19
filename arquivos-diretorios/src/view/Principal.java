@@ -13,11 +13,11 @@ public class Principal {
 		IArquivosController arqCont = new ArquivosController();
 		String dirWin = "C:\\Windows";
 		String path = "C:\\TEMP\\Aula";
-		String nome = "teste.csv";
+		String nome = "teste.txt";
 		
 		try {
 			//arqCont.readDir(dirWin);
-			//arqCont.createFile(path, nome);
+			arqCont.createFile(path, nome);
 			//arqCont.readFile(path, nome);
 			arqCont.openFile(path, nome);
 		} catch (IOException e) {
